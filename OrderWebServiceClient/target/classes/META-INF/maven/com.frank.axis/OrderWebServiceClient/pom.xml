@@ -1,0 +1,130 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.frank.axis</groupId>
+  <artifactId>OrderWebServiceClient</artifactId>
+  <version>2.0-dev</version>
+  
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<axis2.version>1.7.4</axis2.version>
+		<slf4j.version>1.7.7</slf4j.version>
+		<log4jdbc.version>1.2.1</log4jdbc.version>
+	</properties>
+
+	<dependencies>
+		<!--log start -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.log4jdbc</groupId>
+			<artifactId>log4jdbc3</artifactId>
+			<version>${log4jdbc.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>apache-log4j-extras</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<!--log end -->
+
+		<!--axis2 begin -->
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-spring</artifactId>
+			<version>${axis2.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-context</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-beans</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-web</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.ws.commons.axiom</groupId>
+					<artifactId>axiom-impl</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.axis2</groupId>
+					<artifactId>axis2-kernel</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-http</artifactId>
+			<version>${axis2.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.axis2</groupId>
+					<artifactId>axis2-kernel</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-local</artifactId>
+			<version>${axis2.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.axis2</groupId>
+					<artifactId>axis2-kernel</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-xmlbeans</artifactId>
+			<version>${axis2.version}</version>
+		</dependency>
+		<!--axis2 end -->
+	</dependencies>
+	
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- compiler插件, 设定JDK版本 -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>2.5.1</version>
+					<dependencies>
+						<dependency>
+							<groupId>org.codehaus.plexus</groupId>
+							<artifactId>plexus-compiler-javac</artifactId>
+							<version>1.9.2</version>
+						</dependency>
+					</dependencies>
+					<configuration>
+						<!-- 省略 test <skip>true</skip> <showWarnings>true</showWarnings> -->
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

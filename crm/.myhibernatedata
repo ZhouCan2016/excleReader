@@ -1,0 +1,22 @@
+#
+#Sat Jan 19 08:52:16 CST 2008
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=true
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=native
+libInstallFolder=/WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=
+configFile=/crm/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true

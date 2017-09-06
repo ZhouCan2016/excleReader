@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://webService.api.orderWebService.ctsi.com.cn" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://webService.api.orderWebService.ctsi.com.cn">
+    <wsdl:documentation>OrderInfoWebService</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://webService.api.orderWebService.ctsi.com.cn">
+            <xs:element name="orderInfo">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="xml" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="orderInfoResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="orderInfoRequest">
+        <wsdl:part name="parameters" element="ns:orderInfo"/>
+    </wsdl:message>
+    <wsdl:message name="orderInfoResponse">
+        <wsdl:part name="parameters" element="ns:orderInfoResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="OrderInfoWebServicePortType">
+        <wsdl:operation name="orderInfo">
+            <wsdl:input message="ns:orderInfoRequest" wsaw:Action="urn:orderInfo"/>
+            <wsdl:output message="ns:orderInfoResponse" wsaw:Action="urn:orderInfoResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="OrderInfoWebServiceSoap11Binding" type="ns:OrderInfoWebServicePortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="orderInfo">
+            <soap:operation soapAction="urn:orderInfo" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="OrderInfoWebServiceSoap12Binding" type="ns:OrderInfoWebServicePortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="orderInfo">
+            <soap12:operation soapAction="urn:orderInfo" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="OrderInfoWebServiceHttpBinding" type="ns:OrderInfoWebServicePortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="orderInfo">
+            <http:operation location="orderInfo"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="OrderInfoWebService">
+        <wsdl:port name="OrderInfoWebServiceHttpSoap11Endpoint" binding="ns:OrderInfoWebServiceSoap11Binding">
+            <soap:address location="http://localhost:8099/orderWebService/api/v2/services/OrderInfoWebService.OrderInfoWebServiceHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="OrderInfoWebServiceHttpSoap12Endpoint" binding="ns:OrderInfoWebServiceSoap12Binding">
+            <soap12:address location="http://localhost:8099/orderWebService/api/v2/services/OrderInfoWebService.OrderInfoWebServiceHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="OrderInfoWebServiceHttpEndpoint" binding="ns:OrderInfoWebServiceHttpBinding">
+            <http:address location="http://localhost:8099/orderWebService/api/v2/services/OrderInfoWebService.OrderInfoWebServiceHttpEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

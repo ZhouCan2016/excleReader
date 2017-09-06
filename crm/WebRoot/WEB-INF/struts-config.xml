@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="salchanceForm"
+			type="com.team3.web.form.SalChanceForm" />
+		<form-bean name="userForm" type="com.team3.web.form.UserForm" />
+		<form-bean name="loginForm" type="com.team3.web.form.LoginForm" />
+		<form-bean name="dictForm" type="com.team3.web.form.DictForm" />
+		<form-bean name="productForm"
+			type="com.team3.web.form.ProductForm" />
+		<form-bean name="storageForm"
+			type="com.team3.web.form.StorageForm" />
+		<form-bean name="roleForm" type="com.team3.web.form.RoleForm" />
+		<form-bean name="planForm" type="com.team3.web.form.planForm" />
+		<form-bean name="contrForm" type="com.team3.web.form.ContrForm" />
+		<form-bean name="consForm" type="com.team3.web.form.ConsForm" />
+		<form-bean name="svrForm" type="com.team3.web.form.SvrForm" />
+		<form-bean name="lostForm" type="com.team3.web.form.LostForm" />
+		<form-bean name="serviceForm"
+			type="com.team3.web.form.ServiceFrom" />
+		<form-bean name="customerForm"
+			type="com.team3.web.form.CustomerFrom" />
+
+	</form-beans>
+	<action-mappings>
+		<action name="salchanceForm" path="/chance" parameter="o"
+			input="/WEB-INF/jsp/crm/sale/add.jsp" scope="session"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list" path="/WEB-INF/jsp/crm/sale/list.jsp" />
+			<forward name="toAdd" path="/WEB-INF/jsp/crm/sale/add.jsp" />
+			<forward name="toEdit"
+				path="/WEB-INF/jsp/crm/sale/edit.jsp" />
+			<forward name="toDispatch"
+				path="/WEB-INF/jsp/crm/sale/dispatch.jsp" />
+		</action>
+		<action attribute="userForm" name="userForm" parameter="o"
+			path="/user" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list"
+				path="/WEB-INF/jsp/crm/user/userList.jsp" />
+			<forward name="toEdit"
+				path="/WEB-INF/jsp/crm/user/user_edit.jsp" />
+			<forward name="toAdd"
+				path="/WEB-INF/jsp/crm/user/user_add.jsp" />
+		</action>
+		<action attribute="loginForm" input="/WEB-INF/jsp/crm/Login.jsp"
+			name="loginForm" parameter="o" path="/login" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="index" path="/html/index.html" />
+			<forward name="login" path="/WEB-INF/jsp/crm/Login.jsp" />
+			<forward name="l" path="/WEB-INF/jsp/crm/Login.jsp" />
+		</action>
+		<action attribute="dictForm" name="dictForm" parameter="o"
+			path="/dict" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list" path="/WEB-INF/jsp/crm/basd/dict.jsp" />
+			<forward name="toEdit"
+				path="/WEB-INF/jsp/crm/basd/dict_edit.jsp" />
+			<forward name="toAdd"
+				path="/WEB-INF/jsp/crm/basd/dict_add.jsp" />
+		</action>
+		<action attribute="productForm" name="productForm" parameter="o"
+			path="/product" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="productList"
+				path="/WEB-INF/jsp/crm/basd/product.jsp" />
+		</action>
+		<action attribute="storageForm" name="storageForm" parameter="o"
+			path="/storage" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list"
+				path="/WEB-INF/jsp/crm/basd/storage.jsp" />
+		</action>
+		<action attribute="roleForm"
+			input="/WEB-INF/jsp/crm/user/roleList.jsp" name="roleForm"
+			parameter="o" path="/role" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="allRights"
+				path="/WEB-INF/jsp/crm/user/assignRights.jsp" />
+			<forward name="list"
+				path="/WEB-INF/jsp/crm/user/roleList.jsp" />
+		</action>
+		<action attribute="planForm" name="planForm" parameter="o"
+			path="/plan" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list" path="/WEB-INF/jsp/crm/sale/dev.jsp" />
+			<forward name="detail"
+				path="/WEB-INF/jsp/crm/sale/dev_detail.jsp" />
+			<forward name="addPlan"
+				path="/WEB-INF/jsp/crm/sale/dev_plan.jsp" />
+			<forward name="execPlan"
+				path="/WEB-INF/jsp/crm/sale/dev_execute.jsp" />
+		</action>
+		<action name="contrForm" parameter="o" path="/contrRpt"
+			scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list" path="/WEB-INF/jsp/crm/rept/contr.jsp" />
+		</action>
+		<action attribute="consForm" name="consForm" parameter="o"
+			path="/consRpt" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list" path="/WEB-INF/jsp/crm/rept/cons.jsp" />
+		</action>
+		<action attribute="svrForm" name="svrForm" parameter="o"
+			path="/svrRpt" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list" path="/WEB-INF/jsp/crm/rept/ser.jsp" />
+		</action>
+		<action name="lostForm" parameter="o" path="/lostRpt"
+			scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="list" path="/WEB-INF/jsp/crm/rept/lost.jsp" />
+		</action>
+		<action attribute="serviceForm" name="serviceForm" parameter="o"
+			path="/service" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="toadd"
+				path="/WEB-INF/jsp/crm/cust/service/add.jsp" />
+			<forward name="toFeedbackList"
+				path="/WEB-INF/jsp/crm/cust/service/feedback.jsp" />
+			<forward name="feedbackdetail"
+				path="/WEB-INF/jsp/crm/cust/service/feedback_detail.jsp" />
+			<forward name="detail"
+				path="/WEB-INF/jsp/crm/cust/service/detail.jsp" />
+			<forward name="toDispatch"
+				path="/WEB-INF/jsp/crm/cust/service/dispatch.jsp" />
+			<forward name="dealdetail"
+				path="/WEB-INF/jsp/crm/cust/service/deal_detail.jsp" />
+			<forward name="todealList"
+				path="/WEB-INF/jsp/crm/cust/service/deal.jsp" />
+			<forward name="toArchList"
+				path="/WEB-INF/jsp/crm/cust/service/arch.jsp" />
+		</action>
+		<action
+      attribute="customerForm"
+      name="customerForm"
+      parameter="o"
+      path="/customer"
+      scope="request"
+      type="org.springframework.web.struts.DelegatingActionProxy">
+      <forward name="list" path="/WEB-INF/jsp/crm/cust/cust/list.jsp" />
+      <forward name="toEdit" path="/WEB-INF/jsp/crm/cust/cust/edit.jsp" />
+    </action>
+
+	</action-mappings>
+
+	<message-resources parameter="com.team3.web.ApplicationResources" />
+	<plug-in
+		className="org.springframework.web.struts.ContextLoaderPlugIn">
+		<set-property property="contextConfigLocation"
+			value="classpath:applicationContext.xml" />
+	</plug-in>
+</struts-config>
+

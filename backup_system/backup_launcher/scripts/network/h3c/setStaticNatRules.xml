@@ -1,0 +1,55 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+    <auth:Authentication env:mustUnderstand="1" xmlns:auth="http://www.h3c.com/netconf/base:1.0">
+      <auth:AuthInfo>%authinfo%</auth:AuthInfo>
+    </auth:Authentication>
+  </env:Header>
+  <env:Body>
+	<rpc message-id ="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+		  <edit-config>
+		    <target>
+		      <running/>
+		    </target>
+		    <config>
+		      	<top xmlns="http://www.h3c.com/netconf/config:1.0">
+					<!-- <NAT xmlns="http://www.h3c.com/netconf/config:1.0" xc:operation="%action%">
+					  <OutboundStaticMappings>
+					    <Mapping>
+					      <LocalInfo>
+					      	<LocalVRF></LocalVRF>
+					        <StartIpv4Address>%privateIp%</StartIpv4Address>
+					        <EndIpv4Address>%privateIp%</EndIpv4Address>
+					      </LocalInfo>
+					      <GlobalInfo>
+					      	<GlobalVRF></GlobalVRF>
+					        <Ipv4Address>%publicIP%</Ipv4Address>
+					        <Ipv4PrefixLength>32</Ipv4PrefixLength>
+					      </GlobalInfo>
+					      </Mapping>
+					  </OutboundStaticMappings>
+					</NAT>
+					<NAT xmlns="http://www.h3c.com/netconf/config:1.0" xc:operation="merge">
+					  <StaticOnInterfaces>
+					    <Interface>
+					      <IfIndex>%interfaceIndex%</IfIndex>
+					      <EnableStatic>true</EnableStatic>
+					    </Interface>
+					  </StaticOnInterfaces>
+					</NAT> -->
+					
+					<NAT>
+  <AddrGroupMembers>
+    <GroupMember> 
+      <GroupNumber>3009</GroupNumber>
+      <StartIpv4Address>192.168.7.1</StartIpv4Address>
+      <EndIpv4Address>192.168.7.23</EndIpv4Address>
+    </GroupMember>
+  </AddrGroupMembers>
+</NAT>
+					
+		       	</top>
+		    </config>
+		  </edit-config>
+		</rpc>
+  </env:Body>
+</env:Envelope>

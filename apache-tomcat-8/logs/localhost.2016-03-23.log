@@ -1,0 +1,173 @@
+23-Mar-2016 18:17:58.803 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Mar-2016 18:17:58.956 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j system
+23-Mar-2016 18:17:59.621 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Mar-2016 18:18:41.700 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class com.alibaba.citrus.webx.context.WebxContextLoaderListener
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.alibaba.dubbo.governance.sync.RegistryServerSync com.alibaba.dubbo.governance.service.impl.AbstractService.sync; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'governanceCache': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.alibaba.dubbo.registry.RegistryService com.alibaba.dubbo.governance.sync.RegistryServerSync.registryService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'registryService': FactoryBean threw exception on object creation; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:633)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at com.alibaba.citrus.webx.context.WebxComponentsLoader.initWebApplicationContext(WebxComponentsLoader.java:117)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:939)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1812)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.alibaba.dubbo.governance.sync.RegistryServerSync com.alibaba.dubbo.governance.service.impl.AbstractService.sync; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'governanceCache': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.alibaba.dubbo.registry.RegistryService com.alibaba.dubbo.governance.sync.RegistryServerSync.registryService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'registryService': FactoryBean threw exception on object creation; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:517)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	... 27 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'governanceCache': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.alibaba.dubbo.registry.RegistryService com.alibaba.dubbo.governance.sync.RegistryServerSync.registryService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'registryService': FactoryBean threw exception on object creation; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:917)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:860)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:775)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	... 29 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.alibaba.dubbo.registry.RegistryService com.alibaba.dubbo.governance.sync.RegistryServerSync.registryService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'registryService': FactoryBean threw exception on object creation; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:517)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	... 40 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'registryService': FactoryBean threw exception on object creation; nested exception is org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:149)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1468)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:249)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:917)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:860)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:775)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	... 42 more
+Caused by: org.I0Itec.zkclient.exception.ZkTimeoutException: Unable to connect to zookeeper server within timeout: 5000
+	at org.I0Itec.zkclient.ZkClient.connect(ZkClient.java:876)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:98)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:92)
+	at org.I0Itec.zkclient.ZkClient.<init>(ZkClient.java:80)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.<init>(ZkclientZookeeperClient.java:29)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperTransporter.connect(ZkclientZookeeperTransporter.java:10)
+	at com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter$Adpative.connect(ZookeeperTransporter$Adpative.java)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.<init>(ZookeeperRegistry.java:69)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistryFactory.createRegistry(ZookeeperRegistryFactory.java:37)
+	at com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistry(AbstractRegistryFactory.java:94)
+	at com.alibaba.dubbo.registry.RegistryFactory$Adpative.getRegistry(RegistryFactory$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:240)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:60)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:63)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:392)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	... 50 more
+
+23-Mar-2016 18:18:41.763 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Mar-2016 18:18:41.768 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Shutting down log system
+23-Mar-2016 18:18:44.017 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2016 18:18:44.017 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2016 18:18:54.660 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2016 18:18:54.660 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2016 18:20:09.950 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Mar-2016 18:20:10.035 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j system
+23-Mar-2016 18:20:10.370 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Mar-2016 18:20:32.432 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysmanage
+23-Mar-2016 18:20:38.345 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysinfo
+23-Mar-2016 18:20:43.166 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: personal
+23-Mar-2016 18:20:47.783 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: governance
+23-Mar-2016 18:20:53.675 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: home
+23-Mar-2016 18:20:57.358 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxComponents: initialization completed
+23-Mar-2016 18:20:57.368 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: webx
+23-Mar-2016 18:20:57.391 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxFrameworkFilter - webx: initialization completed
+23-Mar-2016 18:20:57.393 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: mdc
+23-Mar-2016 18:20:57.395 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SetLoggingContextFilter - mdc: initialization completed
+23-Mar-2016 18:20:58.380 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2016 18:20:58.381 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2016 18:24:00.470 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2016 18:24:00.470 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2016 18:24:00.486 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Mar-2016 18:24:00.595 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log system
+23-Mar-2016 20:15:21.353 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Mar-2016 20:15:21.463 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j system
+23-Mar-2016 20:15:21.994 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Mar-2016 20:16:03.005 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysmanage
+23-Mar-2016 20:16:07.259 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysinfo
+23-Mar-2016 20:16:10.727 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: personal
+23-Mar-2016 20:16:14.305 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: governance
+23-Mar-2016 20:16:17.675 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: home
+23-Mar-2016 20:16:21.055 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxComponents: initialization completed
+23-Mar-2016 20:16:21.055 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: webx
+23-Mar-2016 20:16:21.086 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxFrameworkFilter - webx: initialization completed
+23-Mar-2016 20:16:21.086 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: mdc
+23-Mar-2016 20:16:21.102 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SetLoggingContextFilter - mdc: initialization completed
+23-Mar-2016 20:16:25.008 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2016 20:16:25.008 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2016 20:21:05.441 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2016 20:21:05.441 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2016 20:21:05.457 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Mar-2016 20:21:05.551 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log system
+23-Mar-2016 20:39:51.525 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Mar-2016 20:39:51.634 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j system
+23-Mar-2016 20:39:52.018 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Mar-2016 20:40:30.096 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysmanage
+23-Mar-2016 20:40:34.094 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysinfo
+23-Mar-2016 20:40:37.454 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: personal
+23-Mar-2016 20:40:40.817 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: governance
+23-Mar-2016 20:40:44.076 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: home
+23-Mar-2016 20:40:47.278 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxComponents: initialization completed
+23-Mar-2016 20:40:47.294 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: webx
+23-Mar-2016 20:40:47.325 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxFrameworkFilter - webx: initialization completed
+23-Mar-2016 20:40:47.325 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: mdc
+23-Mar-2016 20:40:47.325 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SetLoggingContextFilter - mdc: initialization completed
+23-Mar-2016 20:40:48.197 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2016 20:40:48.198 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2016 20:56:15.792 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2016 20:56:15.792 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2016 20:56:15.807 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Mar-2016 20:56:15.917 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log system
+23-Mar-2016 21:12:49.557 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+23-Mar-2016 21:12:49.627 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j system
+23-Mar-2016 21:12:49.930 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+23-Mar-2016 21:13:17.446 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysmanage
+23-Mar-2016 21:13:21.547 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysinfo
+23-Mar-2016 21:13:25.572 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: personal
+23-Mar-2016 21:13:29.310 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: governance
+23-Mar-2016 21:13:32.717 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: home
+23-Mar-2016 21:13:36.000 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxComponents: initialization completed
+23-Mar-2016 21:13:36.012 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: webx
+23-Mar-2016 21:13:36.035 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxFrameworkFilter - webx: initialization completed
+23-Mar-2016 21:13:36.038 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: mdc
+23-Mar-2016 21:13:36.040 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SetLoggingContextFilter - mdc: initialization completed
+23-Mar-2016 21:13:37.764 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Mar-2016 21:13:37.765 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Mar-2016 21:15:54.259 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Mar-2016 21:15:54.259 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Mar-2016 21:15:54.268 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Mar-2016 21:15:54.369 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log system

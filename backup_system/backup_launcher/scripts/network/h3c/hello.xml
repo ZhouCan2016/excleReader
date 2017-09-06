@@ -1,0 +1,17 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+<auth:Authentication env:mustUnderstand="1" xmlns:auth="http://www.h3c.com/netconf/base:1.0">
+         <auth:UserName>%username%</auth:UserName>
+         <auth:Password>%password%</auth:Password>
+      </auth:Authentication>
+   </env:Header>
+   <env:Body>
+    <hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <capabilities>
+    <capability>
+   
+   </capability>
+ </capabilities>
+</hello>
+   </env:Body>
+</env:Envelope>

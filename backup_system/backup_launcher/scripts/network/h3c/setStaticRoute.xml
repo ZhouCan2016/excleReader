@@ -1,0 +1,46 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+    <auth:Authentication env:mustUnderstand="1" xmlns:auth="http://www.h3c.com/netconf/base:1.0">
+      <auth:AuthInfo>%authinfo%</auth:AuthInfo>
+    </auth:Authentication>
+  </env:Header>
+  <env:Body>
+	<rpc message-id ="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+		  <edit-config>
+		    <target>
+		      <running/>
+		    </target>
+		    <config>
+		      <top xmlns="http://www.h3c.com/netconf/config:1.0">
+				<!-- <StaticRoute>
+				   <Ipv4StaticRouteConfigurations>
+				      <RouteEntry>
+						<Ipv4Address>%destIP%</Ipv4Address>
+						<Ipv4PrefixLength>%netmask%</Ipv4PrefixLength>
+						<NexthopIpv4Address>%gateway%</NexthopIpv4Address>
+				      </RouteEntry>
+				   </Ipv4StaticRouteConfigurations>
+				</StaticRoute> -->
+				
+		
+				<StaticRoute>
+   <Ipv4StaticRouteConfigurations>
+      <RouteEntry>
+          <DestVrfIndex>0</DestVrfIndex>
+                <DestTopologyIndex>0</DestTopologyIndex>
+                <Ipv4Address>0.0.0.0</Ipv4Address>
+                <Ipv4PrefixLength>0</Ipv4PrefixLength>
+                <NexthopVrfIndex>0</NexthopVrfIndex>
+                <NexthopIpv4Address>172.17.0.25</NexthopIpv4Address>
+                <IfIndex>0</IfIndex>
+      </RouteEntry>
+   </Ipv4StaticRouteConfigurations>
+</StaticRoute>
+				
+		      </top>
+		    </config>
+		  </edit-config>
+		</rpc>
+  </env:Body>
+ 
+</env:Envelope>

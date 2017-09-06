@@ -1,0 +1,38 @@
+01-Apr-2016 09:12:08.359 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2016 09:12:10.809 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j system
+01-Apr-2016 09:12:17.201 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+01-Apr-2016 09:13:26.825 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysmanage
+01-Apr-2016 09:13:36.918 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysinfo
+01-Apr-2016 09:13:41.671 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: personal
+01-Apr-2016 09:13:45.433 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: governance
+01-Apr-2016 09:13:50.325 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: home
+01-Apr-2016 09:13:55.178 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxComponents: initialization completed
+01-Apr-2016 09:13:55.205 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: webx
+01-Apr-2016 09:13:55.229 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxFrameworkFilter - webx: initialization completed
+01-Apr-2016 09:13:55.233 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: mdc
+01-Apr-2016 09:13:55.243 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SetLoggingContextFilter - mdc: initialization completed
+01-Apr-2016 09:13:57.910 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Apr-2016 09:13:57.920 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Apr-2016 11:38:36.447 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Apr-2016 11:38:36.448 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Apr-2016 11:38:36.466 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+01-Apr-2016 11:38:36.840 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log system
+01-Apr-2016 14:49:58.747 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2016 14:49:59.103 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing log4j system
+01-Apr-2016 14:50:00.563 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+01-Apr-2016 14:50:40.573 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysmanage
+01-Apr-2016 14:50:45.158 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: sysinfo
+01-Apr-2016 14:50:49.028 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: personal
+01-Apr-2016 14:50:52.398 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: governance
+01-Apr-2016 14:50:55.679 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring sub WebApplicationContext: home
+01-Apr-2016 14:50:59.155 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxComponents: initialization completed
+01-Apr-2016 14:50:59.299 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: webx
+01-Apr-2016 14:50:59.320 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log WebxFrameworkFilter - webx: initialization completed
+01-Apr-2016 14:50:59.324 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing filter: mdc
+01-Apr-2016 14:50:59.326 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SetLoggingContextFilter - mdc: initialization completed
+01-Apr-2016 14:51:01.071 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Apr-2016 14:51:01.072 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Apr-2016 17:17:55.516 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Apr-2016 17:17:55.517 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Apr-2016 17:17:55.529 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+01-Apr-2016 17:17:56.300 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log system

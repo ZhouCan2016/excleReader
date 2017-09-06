@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="jetty_handler" class="org.eclipse.jetty.servlet.ServletContextHandler">  
+        <property name="contextPath" value="/rack" />
+        <property name="servletHandler">
+        	<bean id="servlet_handler" class="org.eclipse.jetty.servlet.ServletHandler">
+				<property name="servlets">
+					<list>
+                        <bean id="servlet_holder" class="org.eclipse.jetty.servlet.ServletHolder">
+                            <property name="servlet">
+                                <bean class="org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher"/>
+                            </property>
+                            <property name="name" value="jettyServlet"/>
+							<property name="initParameters">
+                                 <map>
+                                	<!-- Swagger Add Start By LWF 2016/05/16 -->
+                                	<entry key="resteasy.resources" value="com.frank.axis.rest.MyJacksonJsonProvider"/>
+									<entry key="resteasy.providers" value="com.frank.axis.rest.MyResteasyJacksonJsonProvider" />
+                               		<!-- Swagger Add End By LWF 2016/05/16 -->
+                                   <!--  <entry key="javax.ws.rs.Application" value="cn.com.ctsi.csdp.base.rest.RestEasyApplication"/> -->
+                                </map>
+                            </property>
+                        </bean>
+                        
+                        <bean id="servlet_holder2" class="org.eclipse.jetty.servlet.ServletHolder">
+                            <property name="servlet">
+                                <bean class="org.apache.axis2.transport.http.AxisServlet"/>
+                            </property>
+                            <property name="name" value="axisServlet"/>
+                          <!--   <property name="initParameters">
+                                <map>
+                                	<entry key="axis2.repository.path" value="WEB-INF/" />
+                                </map>
+                            </property> -->
+                        </bean>
+					</list>
+                </property>
+                <property name="servletMappings">
+					<list>
+                        <bean class="org.eclipse.jetty.servlet.ServletMapping">
+                            <property name="servletName" value="jettyServlet"/>
+                            <property name="default" value="false"/>
+                            <property name="pathSpec" value="/*"/>
+                        </bean>
+                        
+                        <bean class="org.eclipse.jetty.servlet.ServletMapping">
+                            <property name="servletName" value="axisServlet"/>
+                            <property name="default" value="false"/>
+                            <property name="pathSpec" value="/services/*"/>
+                        </bean>
+					</list>
+                </property>
+        	</bean>
+        </property>
+    </bean>       
+       
+    <bean id="Server" class="org.eclipse.jetty.server.Server" init-method="start" destroy-method="stop">  
+        <property name="threadPool">
+            <bean id="defaultThreadPool" class="org.eclipse.jetty.util.thread.QueuedThreadPool">
+                <property name="minThreads" value="10" />
+                <property name="maxThreads" value="200" />
+            </bean>
+        </property>
+        <property name="connectors">  
+          <list>
+                <bean id="connector" class="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                    <property name="port" value="8099" />
+                    <property name="maxIdleTime" value="30000" />
+                    <property name="lowResourcesConnections" value="5000" />
+                    <property name="lowResourcesMaxIdleTime" value="5000" />
+                    <property name="acceptors" value="4" />
+                    <property name="statsOn" value="false" />
+                    <property name="acceptQueueSize" value="500" />
+                </bean>
+            </list>
+        </property>  
+  
+        <property name="handler">  
+            <bean id="handlers" class="com.frank.axis.jetty.HandlerList">  
+                <property name="handlers">  
+                    <list>
+					  <ref bean="jetty_handler"/>
+                      <bean class="org.eclipse.jetty.server.handler.DefaultHandler" />
+                    </list>  
+                </property>  
+            </bean>  
+        </property>  
+    </bean>  
+</beans>

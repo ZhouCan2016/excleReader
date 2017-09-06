@@ -1,0 +1,146 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+    <auth:Authentication env:mustUnderstand="1" xmlns:auth="http://www.h3c.com/netconf/base:1.0">
+      <auth:AuthInfo>%authinfo%</auth:AuthInfo>
+    </auth:Authentication>
+  </env:Header>
+  <env:Body>
+	<rpc message-id ="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+	  <edit-config>
+	    <target>
+	      <running/>
+	    </target>
+	    <config>
+		<top xmlns="http://www.h3c.com/netconf/config:1.0" >
+			<!-- 
+			<ACL>		
+				<PfilterDefAction>		
+					<DefaultAction>2</DefaultAction>		
+				</PfilterDefAction>		
+			</ACL>	       
+			<ACL>
+				<Groups>			
+					<Group>			
+						<GroupType>1</GroupType>			
+						<GroupID>3011</GroupID>								
+						<MatchOrder>1</MatchOrder>			
+						<Step>5</Step>			
+					</Group>			
+				</Groups>				 
+			</ACL>
+			<ACL>		
+				<Groups>		
+					<Group>		
+						<GroupType>1</GroupType>		
+						<GroupID>%aclName%</GroupID>	
+						<MatchOrder>1</MatchOrder>		
+						<Step>5</Step>		
+					</Group>		
+				</Groups>		 
+			</ACL>	
+			 -->								     
+		   <!--   <ACL >
+				  <IPv4AdvanceRules>
+				    <Rule>
+				      <GroupID>3003</GroupID>
+				      <RuleID>%ruleId%</RuleID>
+				      <Action>2</Action>
+				      <ProtocolType>%protocol%</ProtocolType>
+				      <SrcAny>false</SrcAny>
+				      <SrcIPv4>
+				        <SrcIPv4Addr>%srcIP%</SrcIPv4Addr>
+				        <SrcIPv4Wildcard>%srcIPWildcard%</SrcIPv4Wildcard>
+				      </SrcIPv4>
+				      <DstAny>false</DstAny>
+						<DstIPv4>
+							<DstIPv4Addr>%destIp%</DstIPv4Addr>
+							<DstIPv4Wildcard>0.0.0.0</DstIPv4Wildcard>
+						</DstIPv4>
+				      <DstPort>
+				        <DstPortOp>5</DstPortOp>
+				        <DstPortValue1>%startPort%</DstPortValue1>
+				        <DstPortValue2>%endPort%</DstPortValue2>
+				      </DstPort>
+				    </Rule>
+				  </IPv4AdvanceRules>
+			  </ACL>  -->
+			    <ACL >
+				  <IPv4AdvanceRules>
+				    <Rule>
+				      <GroupID>3003</GroupID>
+				     <RuleID>%ruleId%</RuleID>
+				      <Action>2</Action>
+				      <ProtocolType>256 </ProtocolType>
+				      <SrcAny>false</SrcAny> 
+				      <SrcIPv4>
+				        <SrcIPv4Addr>%srcIP%</SrcIPv4Addr>
+				        <SrcIPv4Wildcard>%srcIPWildcard%</SrcIPv4Wildcard>
+				      </SrcIPv4> 
+				   <DstAny>false</DstAny> 
+						<DstIPv4>
+							<DstIPv4Addr>%destIp%</DstIPv4Addr>
+							<DstIPv4Wildcard>0.0.0.0</DstIPv4Wildcard>
+						</DstIPv4>
+				    
+				    </Rule>
+				  </IPv4AdvanceRules>
+			  </ACL> 
+			 <!--  <ACL>
+				  <IPv4NamedAdvanceRules>
+				    <Rule>
+				      <GroupIndex>3003</GroupIndex>
+				      <RuleID>15</RuleID>
+				      <Action>2</Action>
+				      <ProtocolType>4</ProtocolType>
+				      <SrcAny>false</SrcAny>
+				      <SrcIPv4>
+				        <SrcIPv4Addr>1.1.1.0</SrcIPv4Addr>
+				        <SrcIPv4Wildcard>0.0.255.255</SrcIPv4Wildcard>
+				      </SrcIPv4>
+				      <DstAny>false</DstAny>
+				      <DstIPv4>
+				        <DstIPv4Addr>90.167.2.27</DstIPv4Addr>
+				        <DstIPv4Wildcard>0.0.0.0</DstIPv4Wildcard>
+				      </DstIPv4>
+				    
+				    </Rule>
+				  </IPv4NamedAdvanceRules>
+				</ACL> -->
+			  
+			  
+			<!--  <ACL> 
+			  <PfilterApply> 
+			    <Pfilter> 
+			      <AppObjType>1</AppObjType> 
+			      <AppObjIndex>%interfaceIndex%</AppObjIndex> 
+			      <AppDirection>1</AppDirection>          
+			      <AppAclType>1</AppAclType>
+			      <AppAclGroup>3011</AppAclGroup> 
+			    </Pfilter> 
+			  </PfilterApply>
+			  <PfilterApply> 
+			    <Pfilter> 
+			      <AppObjType>1</AppObjType> 
+			      <AppObjIndex>%interfaceIndex%</AppObjIndex> 
+			      <AppDirection>2</AppDirection>          
+			      <AppAclType>1</AppAclType>
+			      <AppAclGroup>3011</AppAclGroup> 
+			    </Pfilter> 
+			  </PfilterApply>				   			  
+			  <PfilterApply xmlns="http://www.h3c.com/netconf/config:1.0" xc:operation="%action%"> 
+			    <Pfilter> 
+			      <AppObjType>1</AppObjType> 
+			      <AppObjIndex>%interfaceIndex%</AppObjIndex> 
+			      <AppDirection>%InOutbond%</AppDirection>          
+			      <AppAclType>1</AppAclType>
+			      <AppAclGroup>%aclName%</AppAclGroup> 				       
+			    </Pfilter> 
+			  </PfilterApply> 	
+			</ACL> 	 -->
+					
+		</top>
+	    </config>
+	  </edit-config>
+	</rpc>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,12 @@
+127.0.0.1 - - [11/Nov/2016:14:24:45 +0800] "GET / HTTP/1.1" 200 11452
+127.0.0.1 - - [11/Nov/2016:14:24:48 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:24:52 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:24:52 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:25:01 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:25:01 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:32:06 +0800] "GET / HTTP/1.1" 200 11452
+127.0.0.1 - - [11/Nov/2016:14:32:10 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:32:11 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:32:11 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:32:16 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704
+127.0.0.1 - - [11/Nov/2016:14:32:16 +0800] "GET /WebServiceProject/services/OprationServiceImpl?wsdl HTTP/1.1" 500 6704

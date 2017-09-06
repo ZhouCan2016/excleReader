@@ -1,0 +1,94 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+    <auth:Authentication env:mustUnderstand="1" xmlns:auth="http://www.h3c.com/netconf/base:1.0">
+      <auth:AuthInfo>%authinfo%</auth:AuthInfo>
+    </auth:Authentication>
+  </env:Header>
+  <env:Body>
+	<rpc message-id ="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+	  <edit-config>
+	    <target>
+	      <running/>
+	    </target>
+		    <config>
+		      <top xmlns="http://www.h3c.com/netconf/config:1.0">
+				<NAT xmlns="http://www.h3c.com/netconf/config:1.0" xc:operation="%action%">
+					<ServerOnInterfaces>
+						<Interface>
+							<IfIndex>%interfaceIndex%</IfIndex>
+							<ProtocolType>%protocol%</ProtocolType>
+							<GlobalInfo>
+								<GlobalVRF></GlobalVRF>
+								<GlobalStartIpv4Address>%pulicIpStart%</GlobalStartIpv4Address>
+								<!-- <GlobalEndIpv4Address>%pulicIpEnd%</GlobalEndIpv4Address> -->								
+								<GlobalStartPortNumber>%startPort%</GlobalStartPortNumber>
+								<GlobalEndPortNumber>%endPort%</GlobalEndPortNumber>
+								<GlobalIfIndex />
+							</GlobalInfo>
+							<LocalInfo>
+								<LocalVRF></LocalVRF>
+								<LocalStartIpv4Address>%localIpStart%</LocalStartIpv4Address>
+								<!-- <LocalEndIpv4Address>%localIpEnd%</LocalEndIpv4Address> -->
+								<LocalStartPortNumber>%localStartPort%</LocalStartPortNumber>
+								<LocalEndPortNumber>%localEndPort%</LocalEndPortNumber>
+							</LocalInfo>
+						</Interface>
+					</ServerOnInterfaces>
+				</NAT>
+				<!--  <ACL>			 
+				  <IPv4AdvanceRules>			 
+				    <Rule>			 
+				      <GroupID>%aclNumber%</GroupID>			 
+				      <Action>%action%</Action>
+				      <ProtocolType>%protocol%</ProtocolType>
+				      <DstIPv4>
+				        <DstIPv4Addr>%destIP%</DstIPv4Addr>
+				        <DstIPv4Wildcard>0.0.0.0</DstIPv4Wildcard>
+				      </DstIPv4>
+				      <DstPort>
+				        <DstPortOp>5</DstPortOp> 
+				        <DstPortValue1>%from%</DstPortValue1>			 
+				        <DstPortValue2>%to%</DstPortValue2>			 
+				      </DstPort>			 
+					</Rule>	
+				   </IPv4AdvanceRules>			 
+				  <PfilterApply>			 
+				    <Pfilter>			 
+				      <AppObjType>1</AppObjType>			 
+				      <AppObjIndex>%interfaceIndex%</AppObjIndex>       	 
+				      <AppDirection>1</AppDirection>         
+				      <AppAclType>1</AppAclType>
+				      <AppAclGroup>%aclNumber%</AppAclGroup>      	 
+				      <HardCount>1</HardCount>			 
+				    </Pfilter>			 
+				  </PfilterApply>			 
+				</ACL>
+				
+				<NAT>			
+					<ServerOnInterfaces>			
+						<Interface>			
+							<IfIndex>%interfaceIndex%</IfIndex>			
+							<ProtocolType>%protocol%</ProtocolType>			
+							<GlobalInfo>			
+								<GlobalVRF></GlobalVRF>			
+								<GlobalStartIpv4Address>1.1.1.1</GlobalStartIpv4Address>			
+								<GlobalEndIpv4Address></GlobalEndIpv4Address>			
+								<GlobalStartPortNumber>%startPort%</GlobalStartPortNumber>			
+								<GlobalEndPortNumber>%endPort%</GlobalEndPortNumber>			
+								<GlobalIfIndex />			
+							</GlobalInfo>			
+							<LocalInfo>			
+								<LocalStartIpv4Address>2.2.2.2</LocalStartIpv4Address>			
+								<LocalStartPortNumber>80</LocalStartPortNumber>			
+							</LocalInfo>			
+						</Interface>			
+					</ServerOnInterfaces>
+				</NAT>	 
+				-->
+	    	</top>
+	    </config>
+	  </edit-config>
+	</rpc>
+  </env:Body>
+ 
+</env:Envelope>

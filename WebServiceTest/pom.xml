@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>cn.com.frank</groupId>
+	<artifactId>WebServiceTest</artifactId>
+	<version>ver-1.0</version>
+	<packaging>pom</packaging>
+
+	<distributionManagement>
+		<site>
+			<id>website</id>
+			<url>scp://webhost.company.com/www/website</url>
+		</site>
+	</distributionManagement>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<axis2.version>1.7.4</axis2.version>
+		<jetty.version>8.1.7.v20120910</jetty.version>
+		<spring.version>3.2.11.RELEASE</spring.version>
+		<jackson.version>1.9.9</jackson.version>
+		<resteasy.version>3.0.7.Final</resteasy.version>
+		<slf4j.version>1.7.7</slf4j.version>
+		<log4jdbc.version>1.2.1</log4jdbc.version>
+	</properties>
+
+	<modules>
+		<module>axis2-testServer</module>
+		<module>axis-client</module>
+	</modules>
+
+	<dependencies>
+		<!--spring start -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.8.2</version>
+		</dependency>
+		<!--spring start -->
+
+		<!--jetty start -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlets</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
+		</dependency>
+		<!--jetty end -->
+
+		<!--jackson start -->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-jaxrs</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<!--jackson end -->
+
+		<!-- resteasy -->
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-client</artifactId>
+			<version>${resteasy.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jdk-http</artifactId>
+			<version>${resteasy.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jackson-provider</artifactId>
+			<version>${resteasy.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxb-provider</artifactId>
+			<version>${resteasy.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-multipart-provider</artifactId>
+			<version>${resteasy.version}</version>
+		</dependency>
+
+		<!--log start -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.log4jdbc</groupId>
+			<artifactId>log4jdbc3</artifactId>
+			<version>${log4jdbc.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>apache-log4j-extras</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<!--log end -->
+
+		<!--axis2 begin -->
+		<!-- <dependency> <groupId>org.apache.axis2</groupId> <artifactId>axis2</artifactId> 
+			<version>${axis2.version}</version> </dependency> -->
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-spring</artifactId>
+			<version>${axis2.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-context</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-beans</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-web</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.ws.commons.axiom</groupId>
+					<artifactId>axiom-impl</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.axis2</groupId>
+					<artifactId>axis2-kernel</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-http</artifactId>
+			<version>${axis2.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.axis2</groupId>
+					<artifactId>axis2-kernel</artifactId>
+				</exclusion>
+				<!-- <exclusion> <groupId>org.apache.httpcomponents</groupId> <artifactId>httpcore</artifactId> 
+					</exclusion> -->
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-transport-local</artifactId>
+			<version>${axis2.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.axis2</groupId>
+					<artifactId>axis2-kernel</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-xmlbeans</artifactId>
+			<version>${axis2.version}</version>
+		</dependency>
+		<!--axis2 end -->
+
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+	</dependencies>
+
+</project>

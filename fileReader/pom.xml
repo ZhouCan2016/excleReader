@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>ctsi.com.cn</groupId>
+	<artifactId>fileReader</artifactId>
+	<version>1-dev</version>
+	<packaging>jar</packaging>
+
+	<name>fileReader</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.8</version>
+		</dependency>
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- test插件, 增大内存且仅测试名称�?*Test的类 -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.12.4</version>
+					<configuration>
+						<!-- 省略 test <skip>true</skip> -->
+						<argLine>-Xmx1024M</argLine>
+						<includes>
+							<include>**/*Test.java</include>
+						</includes>
+						<forkMode>once</forkMode>
+						<argLine>-Dfile.encoding=UTF-8</argLine>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

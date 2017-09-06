@@ -1,0 +1,29 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+    <auth:Authentication env:mustUnderstand="1" xmlns:auth="http://www.h3c.com/netconf/base:1.0">
+      <auth:AuthInfo>%authinfo%</auth:AuthInfo>
+    </auth:Authentication>
+  </env:Header>
+  <env:Body>
+	<rpc message-id ="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+		  <edit-config>
+		    <target>
+		      <running/>
+		    </target>
+		    <config>
+		     <top xmlns="http://www.h3c.com/netconf/config:1.0">
+   		<NAT>
+  <OutboundDynamicRules>
+    <Interface>
+      <IfIndex>196</IfIndex>
+      <ACLNumber>%aclNumber%</ACLNumber>
+      <AddrGroupNumber>%groupId%</AddrGroupNumber>
+    </Interface>
+  </OutboundDynamicRules>
+</NAT>
+   			</top>
+		    </config>
+		  </edit-config>
+		</rpc>
+  </env:Body>
+</env:Envelope>

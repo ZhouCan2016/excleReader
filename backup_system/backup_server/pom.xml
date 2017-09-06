@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.com.ctsi</groupId>
+		<artifactId>backup_system</artifactId>
+		<version>ver-1.0</version>
+	</parent>
+	<groupId>cn.com.ctsi.backup_system</groupId>
+	<artifactId>backup_server</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>cn.com.ctsi.back_system</groupId>
+			<artifactId>backup_base</artifactId>
+			<version>${yun.version}</version>
+		</dependency>
+	</dependencies>
+</project>

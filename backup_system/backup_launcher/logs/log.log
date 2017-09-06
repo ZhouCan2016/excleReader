@@ -1,0 +1,1268 @@
+2017-03-01 13:24:23,334 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 13:24:23 CST 2017]; root of context hierarchy
+2017-03-01 13:24:23,642 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 13:24:24,501 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 13:24:24,975 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12f41634: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 13:24:25,752 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 13:24:25 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 13:24:25,806 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7adda9cc: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@12f41634
+2017-03-01 13:24:26,541 INFO  [org.reflections.Reflections] (main:null) Reflections took 465 ms to scan 2 urls, producing 12 keys and 14 values 
+2017-03-01 13:24:26,793 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-01 13:24:27,665 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.frank.axis.rest.RestEasyApplication
+2017-03-01 13:24:28,021 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-01 13:24:28,022 INFO  [axis.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-01 13:44:01,292 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 13:44:01 CST 2017]; root of context hierarchy
+2017-03-01 13:44:01,378 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 13:44:01,608 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 13:44:01,735 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@12f41634: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 13:44:02,001 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 13:44:02 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 13:44:02,016 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7adda9cc: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@12f41634
+2017-03-01 13:44:02,200 INFO  [org.reflections.Reflections] (main:null) Reflections took 123 ms to scan 2 urls, producing 12 keys and 14 values 
+2017-03-01 13:44:02,317 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-01 13:44:02,600 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.frank.axis.rest.RestEasyApplication
+2017-03-01 13:44:02,862 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-01 13:44:02,863 INFO  [axis.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-01 13:44:12,615 WARN  [resteasy.core.ExceptionHandler] (qtp220309324-24:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/rack/
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.frank.axis.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-01 15:27:56,149 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:27:56 CST 2017]; root of context hierarchy
+2017-03-01 15:27:56,213 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:27:56,439 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:27:56,581 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:27:56,846 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 15:27:56 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 15:27:56,858 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e2e18f2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb
+2017-03-01 15:27:57,024 INFO  [org.reflections.Reflections] (main:null) Reflections took 110 ms to scan 2 urls, producing 14 keys and 16 values 
+2017-03-01 15:27:57,138 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-01 15:27:57,398 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.frank.axis.rest.RestEasyApplication
+2017-03-01 15:27:57,628 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-01 15:27:57,629 INFO  [axis.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-01 15:29:18,039 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:29:18 CST 2017]; root of context hierarchy
+2017-03-01 15:29:18,100 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:29:18,299 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:29:18,437 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@23d2a7e8: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:29:18,438 WARN  [context.support.ClassPathXmlApplicationContext] (main:null) Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+	at com.frank.axis.app.App.main(App.java:8)
+Caused by: java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+	... 10 more
+2017-03-01 15:29:18,443 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@23d2a7e8: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:29:18,443 INFO  [axis.launcher.AppLauncher] (main:null) org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+2017-03-01 15:29:18,443 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+2017-03-01 15:29:18,444 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+2017-03-01 15:29:18,446 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.frank.axis.app.App.main(App.java:8)
+2017-03-01 15:29:18,446 INFO  [axis.launcher.AppLauncher] (main:null) Caused by: java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+2017-03-01 15:29:18,446 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-03-01 15:29:18,446 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:29:18,446 INFO  [axis.launcher.AppLauncher] (main:null) 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-03-01 15:29:18,446 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:29:18,446 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+2017-03-01 15:29:18,447 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+2017-03-01 15:29:18,447 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+2017-03-01 15:29:18,447 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+2017-03-01 15:29:18,447 INFO  [axis.launcher.AppLauncher] (main:null) 	... 10 more
+2017-03-01 15:30:24,237 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:30:24 CST 2017]; root of context hierarchy
+2017-03-01 15:30:24,302 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:30:24,535 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:30:24,682 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:30:24,683 WARN  [context.support.ClassPathXmlApplicationContext] (main:null) Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+	at com.cloud.axis.app.App.main(App.java:8)
+Caused by: java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+	... 10 more
+2017-03-01 15:30:24,687 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:30:24,687 INFO  [axis.launcher.AppLauncher] (main:null) org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+2017-03-01 15:30:24,687 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+2017-03-01 15:30:24,688 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+2017-03-01 15:30:24,689 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+2017-03-01 15:30:24,691 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.cloud.axis.app.App.main(App.java:8)
+2017-03-01 15:30:24,691 INFO  [axis.launcher.AppLauncher] (main:null) Caused by: java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+2017-03-01 15:30:24,691 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-03-01 15:30:24,691 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:30:24,691 INFO  [axis.launcher.AppLauncher] (main:null) 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-03-01 15:30:24,692 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:30:24,692 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+2017-03-01 15:30:24,692 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+2017-03-01 15:30:24,692 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+2017-03-01 15:30:24,692 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+2017-03-01 15:30:24,692 INFO  [axis.launcher.AppLauncher] (main:null) 	... 10 more
+2017-03-01 15:35:20,990 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:35:20 CST 2017]; root of context hierarchy
+2017-03-01 15:35:21,070 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:35:21,353 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:35:21,553 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:35:21,554 WARN  [context.support.ClassPathXmlApplicationContext] (main:null) Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+	at com.cloud.axis.app.App.main(App.java:8)
+Caused by: java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+	... 10 more
+2017-03-01 15:35:21,557 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:35:21,557 INFO  [axis.launcher.AppLauncher] (main:null) org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+2017-03-01 15:35:21,557 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+2017-03-01 15:35:21,558 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+2017-03-01 15:35:21,559 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+2017-03-01 15:35:21,559 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.cloud.axis.app.App.main(App.java:8)
+2017-03-01 15:35:21,559 INFO  [axis.launcher.AppLauncher] (main:null) Caused by: java.lang.ClassNotFoundException: com.frank.axis.utils.SpringContextUtils
+2017-03-01 15:35:21,559 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-03-01 15:35:21,559 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:35:21,559 INFO  [axis.launcher.AppLauncher] (main:null) 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-03-01 15:35:21,559 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:35:21,560 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+2017-03-01 15:35:21,560 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+2017-03-01 15:35:21,560 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+2017-03-01 15:35:21,560 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+2017-03-01 15:35:21,561 INFO  [axis.launcher.AppLauncher] (main:null) 	... 10 more
+2017-03-01 15:35:53,997 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:35:53 CST 2017]; root of context hierarchy
+2017-03-01 15:35:54,063 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:35:54,371 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:35:54,564 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:35:54,906 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 15:35:54 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 15:35:54,917 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e2e18f2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb
+2017-03-01 15:35:55,130 INFO  [org.reflections.Reflections] (main:null) Reflections took 138 ms to scan 2 urls, producing 14 keys and 16 values 
+2017-03-01 15:35:55,282 WARN  [context.support.ClassPathXmlApplicationContext] (main:null) Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'Server' defined in class path resource [jetty-config.xml]: Cannot create inner bean 'handlers' of type [com.frank.axis.jetty.HandlerList] while setting bean property 'handler'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:287)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+	at com.cloud.axis.app.App.main(App.java:8)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:435)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+	... 18 more
+2017-03-01 15:35:55,286 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:35:55,288 INFO  [axis.launcher.AppLauncher] (main:null) org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'Server' defined in class path resource [jetty-config.xml]: Cannot create inner bean 'handlers' of type [com.frank.axis.jetty.HandlerList] while setting bean property 'handler'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+2017-03-01 15:35:55,288 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:287)
+2017-03-01 15:35:55,288 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+2017-03-01 15:35:55,288 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1419)
+2017-03-01 15:35:55,289 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1160)
+2017-03-01 15:35:55,289 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+2017-03-01 15:35:55,289 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+2017-03-01 15:35:55,289 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+2017-03-01 15:35:55,289 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+2017-03-01 15:35:55,289 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+2017-03-01 15:35:55,290 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+2017-03-01 15:35:55,295 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+2017-03-01 15:35:55,295 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+2017-03-01 15:35:55,296 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+2017-03-01 15:35:55,296 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+2017-03-01 15:35:55,296 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+2017-03-01 15:35:55,296 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.cloud.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+2017-03-01 15:35:55,297 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.cloud.axis.app.App.main(App.java:8)
+2017-03-01 15:35:55,297 INFO  [axis.launcher.AppLauncher] (main:null) Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+2017-03-01 15:35:55,297 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+2017-03-01 15:35:55,309 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:435)
+2017-03-01 15:35:55,309 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+2017-03-01 15:35:55,309 INFO  [axis.launcher.AppLauncher] (main:null) 	... 16 more
+2017-03-01 15:35:55,309 INFO  [axis.launcher.AppLauncher] (main:null) Caused by: java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+2017-03-01 15:35:55,310 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+2017-03-01 15:35:55,311 INFO  [axis.launcher.AppLauncher] (main:null) 	... 18 more
+2017-03-01 15:44:55,146 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:44:55 CST 2017]; root of context hierarchy
+2017-03-01 15:44:55,208 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:44:55,445 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:44:55,592 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:44:55,863 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 15:44:55 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 15:44:55,878 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e2e18f2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb
+2017-03-01 15:44:56,044 INFO  [org.reflections.Reflections] (main:null) Reflections took 102 ms to scan 1 urls, producing 12 keys and 14 values 
+2017-03-01 15:44:56,119 WARN  [context.support.ClassPathXmlApplicationContext] (main:null) Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'Server' defined in class path resource [jetty-config.xml]: Cannot create inner bean 'handlers' of type [com.frank.axis.jetty.HandlerList] while setting bean property 'handler'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:287)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.frank.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+	at com.frank.axis.app.App.main(App.java:8)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:435)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+	... 18 more
+2017-03-01 15:44:56,122 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:44:56,123 INFO  [axis.launcher.AppLauncher] (main:null) org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'Server' defined in class path resource [jetty-config.xml]: Cannot create inner bean 'handlers' of type [com.frank.axis.jetty.HandlerList] while setting bean property 'handler'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+2017-03-01 15:44:56,124 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:287)
+2017-03-01 15:44:56,124 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+2017-03-01 15:44:56,124 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1419)
+2017-03-01 15:44:56,124 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1160)
+2017-03-01 15:44:56,124 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+2017-03-01 15:44:56,124 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+2017-03-01 15:44:56,124 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+2017-03-01 15:44:56,125 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.frank.axis.launcher.AppLauncher.main(AppLauncher.java:30)
+2017-03-01 15:44:56,126 INFO  [axis.launcher.AppLauncher] (main:null) 	at com.frank.axis.app.App.main(App.java:8)
+2017-03-01 15:44:56,126 INFO  [axis.launcher.AppLauncher] (main:null) Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.frank.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+2017-03-01 15:44:56,126 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+2017-03-01 15:44:56,126 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:435)
+2017-03-01 15:44:56,126 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+2017-03-01 15:44:56,126 INFO  [axis.launcher.AppLauncher] (main:null) 	... 16 more
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) Caused by: java.lang.ClassNotFoundException: com.frank.axis.jetty.HandlerList
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.net.URLClassLoader.findClass(Unknown Source)
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+2017-03-01 15:44:56,127 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+2017-03-01 15:44:56,128 INFO  [axis.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+2017-03-01 15:44:56,128 INFO  [axis.launcher.AppLauncher] (main:null) 	... 18 more
+2017-03-01 15:45:57,426 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:45:57 CST 2017]; root of context hierarchy
+2017-03-01 15:45:57,487 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:45:57,758 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:45:57,930 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:45:58,261 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 15:45:58 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 15:45:58,272 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e2e18f2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb
+2017-03-01 15:45:58,443 INFO  [org.reflections.Reflections] (main:null) Reflections took 108 ms to scan 1 urls, producing 12 keys and 14 values 
+2017-03-01 15:45:58,607 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-01 15:45:58,866 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.cloud.axis.rest.RestEasyApplication
+2017-03-01 15:45:59,143 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-01 15:45:59,145 INFO  [axis.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-01 15:46:38,962 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:46:38 CST 2017]; root of context hierarchy
+2017-03-01 15:46:39,028 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:46:39,292 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:46:39,478 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:46:39,754 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 15:46:39 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 15:46:39,767 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e2e18f2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb
+2017-03-01 15:46:39,939 INFO  [org.reflections.Reflections] (main:null) Reflections took 112 ms to scan 1 urls, producing 13 keys and 15 values 
+2017-03-01 15:46:40,067 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-01 15:46:40,405 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.cloud.axis.rest.RestEasyApplication
+2017-03-01 15:46:40,823 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-01 15:46:40,824 INFO  [axis.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-01 15:46:58,866 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 15:46:58 CST 2017]; root of context hierarchy
+2017-03-01 15:46:58,932 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 15:46:59,199 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 15:46:59,397 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 15:46:59,735 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 15:46:59 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 15:46:59,746 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e2e18f2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb
+2017-03-01 15:46:59,927 INFO  [org.reflections.Reflections] (main:null) Reflections took 116 ms to scan 2 urls, producing 14 keys and 16 values 
+2017-03-01 15:47:00,088 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-01 15:47:00,368 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.cloud.axis.rest.RestEasyApplication
+2017-03-01 15:47:00,611 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-01 15:47:00,612 INFO  [axis.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-01 16:11:30,812 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f: startup date [Wed Mar 01 16:11:30 CST 2017]; root of context hierarchy
+2017-03-01 16:11:30,877 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/pratice/WebServiceTest/axis2_launcher/target/classes/spring-config.xml]
+2017-03-01 16:11:31,102 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-01 16:11:31,252 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb: defining beans [springContextUtils,reflections,virtualFirewallService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-01 16:11:31,526 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Wed Mar 01 16:11:31 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@5fe5c6f
+2017-03-01 16:11:31,540 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e2e18f2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@612fc6eb
+2017-03-01 16:11:31,713 INFO  [org.reflections.Reflections] (main:null) Reflections took 117 ms to scan 2 urls, producing 15 keys and 17 values 
+2017-03-01 16:11:31,817 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-01 16:11:32,073 ERROR [axis.rest.RestEasyApplication] (main:null) there is no bean named com.cloud.axis.rest.biscuit.VirtualFirewall in the spring context! 
+2017-03-01 16:11:32,073 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.cloud.axis.rest.RestEasyApplication
+2017-03-01 16:11:32,315 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-01 16:11:32,315 INFO  [axis.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 14:02:14,595 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31b7dea0: startup date [Thu Mar 16 14:02:14 CST 2017]; root of context hierarchy
+2017-03-16 14:02:14,675 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 14:02:14,918 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 14:02:15,141 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3043fe0e: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:02:15,143 WARN  [context.support.ClassPathXmlApplicationContext] (main:null) Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.cloud.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.cloud.axis.utils.SpringContextUtils
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.ctsi.backup.launcher.AppLauncher.main(AppLauncher.java:30)
+	at cn.com.ctsi.app.App.main(App.java:7)
+Caused by: java.lang.ClassNotFoundException: com.cloud.axis.utils.SpringContextUtils
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+	... 10 more
+2017-03-16 14:02:15,147 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3043fe0e: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:02:15,148 INFO  [backup.launcher.AppLauncher] (main:null) org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.cloud.axis.utils.SpringContextUtils] for bean with name 'springContextUtils' defined in URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]; nested exception is java.lang.ClassNotFoundException: com.cloud.axis.utils.SpringContextUtils
+2017-03-16 14:02:15,149 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+2017-03-16 14:02:15,149 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:575)
+2017-03-16 14:02:15,149 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1347)
+2017-03-16 14:02:15,149 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:913)
+2017-03-16 14:02:15,150 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:617)
+2017-03-16 14:02:15,151 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+2017-03-16 14:02:15,153 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+2017-03-16 14:02:15,153 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+2017-03-16 14:02:15,153 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+2017-03-16 14:02:15,153 INFO  [backup.launcher.AppLauncher] (main:null) 	at com.ctsi.backup.launcher.AppLauncher.main(AppLauncher.java:30)
+2017-03-16 14:02:15,153 INFO  [backup.launcher.AppLauncher] (main:null) 	at cn.com.ctsi.app.App.main(App.java:7)
+2017-03-16 14:02:15,154 INFO  [backup.launcher.AppLauncher] (main:null) Caused by: java.lang.ClassNotFoundException: com.cloud.axis.utils.SpringContextUtils
+2017-03-16 14:02:15,154 INFO  [backup.launcher.AppLauncher] (main:null) 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+2017-03-16 14:02:15,155 INFO  [backup.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2017-03-16 14:02:15,156 INFO  [backup.launcher.AppLauncher] (main:null) 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+2017-03-16 14:02:15,156 INFO  [backup.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2017-03-16 14:02:15,157 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+2017-03-16 14:02:15,157 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+2017-03-16 14:02:15,157 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+2017-03-16 14:02:15,157 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+2017-03-16 14:02:15,158 INFO  [backup.launcher.AppLauncher] (main:null) 	... 10 more
+2017-03-16 14:05:21,985 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31b7dea0: startup date [Thu Mar 16 14:05:21 CST 2017]; root of context hierarchy
+2017-03-16 14:05:22,043 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 14:05:22,251 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 14:05:22,394 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7113b13f: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:05:22,725 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 14:05:22 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@31b7dea0
+2017-03-16 14:05:22,745 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@20d28811: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7113b13f
+2017-03-16 14:05:22,882 INFO  [org.reflections.Reflections] (main:null) Reflections took 77 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 14:05:22,940 WARN  [context.support.ClassPathXmlApplicationContext] (main:null) Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'Server' defined in class path resource [jetty-config.xml]: Cannot create inner bean 'handlers' of type [com.cloud.axis.jetty.HandlerList] while setting bean property 'handler'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.cloud.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.cloud.axis.jetty.HandlerList
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:287)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.ctsi.backup.launcher.AppLauncher.main(AppLauncher.java:30)
+	at cn.com.ctsi.app.App.main(App.java:7)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.cloud.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.cloud.axis.jetty.HandlerList
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:435)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+	... 16 more
+Caused by: java.lang.ClassNotFoundException: com.cloud.axis.jetty.HandlerList
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+	... 18 more
+2017-03-16 14:05:22,944 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7113b13f: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:05:22,945 INFO  [backup.launcher.AppLauncher] (main:null) org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'Server' defined in class path resource [jetty-config.xml]: Cannot create inner bean 'handlers' of type [com.cloud.axis.jetty.HandlerList] while setting bean property 'handler'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.cloud.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.cloud.axis.jetty.HandlerList
+2017-03-16 14:05:22,946 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:287)
+2017-03-16 14:05:22,946 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:122)
+2017-03-16 14:05:22,946 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1419)
+2017-03-16 14:05:22,946 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1160)
+2017-03-16 14:05:22,946 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+2017-03-16 14:05:22,947 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+2017-03-16 14:05:22,947 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+2017-03-16 14:05:22,947 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+2017-03-16 14:05:22,947 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+2017-03-16 14:05:22,947 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+2017-03-16 14:05:22,947 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+2017-03-16 14:05:22,948 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+2017-03-16 14:05:22,948 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+2017-03-16 14:05:22,948 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+2017-03-16 14:05:22,948 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+2017-03-16 14:05:22,948 INFO  [backup.launcher.AppLauncher] (main:null) 	at com.ctsi.backup.launcher.AppLauncher.main(AppLauncher.java:30)
+2017-03-16 14:05:22,949 INFO  [backup.launcher.AppLauncher] (main:null) 	at cn.com.ctsi.app.App.main(App.java:7)
+2017-03-16 14:05:22,949 INFO  [backup.launcher.AppLauncher] (main:null) Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.cloud.axis.jetty.HandlerList] for bean with name 'handlers' defined in class path resource [jetty-config.xml]; nested exception is java.lang.ClassNotFoundException: com.cloud.axis.jetty.HandlerList
+2017-03-16 14:05:22,949 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1278)
+2017-03-16 14:05:22,949 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:435)
+2017-03-16 14:05:22,949 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:276)
+2017-03-16 14:05:22,949 INFO  [backup.launcher.AppLauncher] (main:null) 	... 16 more
+2017-03-16 14:05:22,950 INFO  [backup.launcher.AppLauncher] (main:null) Caused by: java.lang.ClassNotFoundException: com.cloud.axis.jetty.HandlerList
+2017-03-16 14:05:22,950 INFO  [backup.launcher.AppLauncher] (main:null) 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+2017-03-16 14:05:22,950 INFO  [backup.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+2017-03-16 14:05:22,950 INFO  [backup.launcher.AppLauncher] (main:null) 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+2017-03-16 14:05:22,950 INFO  [backup.launcher.AppLauncher] (main:null) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2017-03-16 14:05:22,950 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.util.ClassUtils.forName(ClassUtils.java:265)
+2017-03-16 14:05:22,951 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:419)
+2017-03-16 14:05:22,951 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1299)
+2017-03-16 14:05:22,951 INFO  [backup.launcher.AppLauncher] (main:null) 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1270)
+2017-03-16 14:05:22,951 INFO  [backup.launcher.AppLauncher] (main:null) 	... 18 more
+2017-03-16 14:06:56,514 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31b7dea0: startup date [Thu Mar 16 14:06:56 CST 2017]; root of context hierarchy
+2017-03-16 14:06:56,585 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 14:06:56,795 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 14:06:56,955 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7113b13f: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:06:57,260 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 14:06:57 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@31b7dea0
+2017-03-16 14:06:57,275 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@20d28811: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7113b13f
+2017-03-16 14:06:57,441 INFO  [org.reflections.Reflections] (main:null) Reflections took 102 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 14:06:57,532 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 14:06:57,952 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 14:06:58,187 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 14:06:58,188 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 14:49:26,644 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 14:49:26 CST 2017]; root of context hierarchy
+2017-03-16 14:49:26,718 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 14:49:26,952 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 14:49:27,117 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:49:27,501 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 14:49:27 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 14:49:27,525 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44d52de2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732
+2017-03-16 14:49:27,732 INFO  [org.reflections.Reflections] (main:null) Reflections took 131 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 14:49:27,899 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 14:49:28,351 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 14:49:28,632 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 14:49:28,634 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 14:51:45,729 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-27:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:43)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 14:52:02,172 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-23:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:43)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 14:53:02,807 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-27:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:43)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 14:53:36,495 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 14:53:36 CST 2017]; root of context hierarchy
+2017-03-16 14:53:36,557 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 14:53:36,785 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 14:53:36,946 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:53:37,331 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 14:53:37 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 14:53:37,353 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44d52de2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732
+2017-03-16 14:53:37,553 INFO  [org.reflections.Reflections] (main:null) Reflections took 126 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 14:53:37,691 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 14:53:38,036 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 14:53:38,272 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 14:53:38,273 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 14:53:45,836 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-22:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:43)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 14:55:36,163 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-26:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/01010
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 14:58:09,083 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 14:58:09 CST 2017]; root of context hierarchy
+2017-03-16 14:58:09,148 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 14:58:09,379 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 14:58:09,564 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:58:09,939 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 14:58:09 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 14:58:09,958 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44d52de2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732
+2017-03-16 14:58:10,154 INFO  [org.reflections.Reflections] (main:null) Reflections took 119 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 14:58:10,287 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 14:58:10,643 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 14:58:10,946 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 14:58:10,947 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 14:58:24,556 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-21:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/01010
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 14:59:17,313 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 14:59:17 CST 2017]; root of context hierarchy
+2017-03-16 14:59:17,379 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 14:59:17,603 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 14:59:17,777 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 14:59:18,159 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 14:59:18 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 14:59:18,176 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44d52de2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732
+2017-03-16 14:59:18,366 INFO  [org.reflections.Reflections] (main:null) Reflections took 119 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 14:59:18,510 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 14:59:18,842 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 14:59:19,083 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 14:59:19,085 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 14:59:27,317 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-26:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/01010
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:06:36,454 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 15:06:36 CST 2017]; root of context hierarchy
+2017-03-16 15:06:36,522 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 15:06:36,751 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 15:06:36,915 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 15:06:37,282 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 15:06:37 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 15:06:37,303 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44d52de2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732
+2017-03-16 15:06:37,491 INFO  [org.reflections.Reflections] (main:null) Reflections took 115 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 15:06:37,624 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 15:06:38,049 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 15:06:38,274 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 15:06:38,275 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 15:06:56,874 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-19:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/01010dfadsfasdcxzd
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:11:42,973 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 15:11:42 CST 2017]; root of context hierarchy
+2017-03-16 15:11:43,041 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 15:11:43,280 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 15:11:43,454 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 15:11:43,855 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 15:11:43 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 15:11:43,874 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44d52de2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732
+2017-03-16 15:11:44,054 INFO  [org.reflections.Reflections] (main:null) Reflections took 94 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 15:11:44,182 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 15:11:44,554 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 15:11:44,792 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 15:11:44,793 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 15:12:57,081 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-26:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:43)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:13:02,305 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-26:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:43)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:13:30,030 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-26:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/fjkahskjhfiajkcxakc
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:15:03,006 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-23:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/fjkahskjhfiajkcxakc
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:16:06,652 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-23:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/fjkahskjhfiajkcxakc
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:16:09,432 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-26:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/fjkahskjhfiajkcxakc
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:16:54,765 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-26:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/fjkahskjhfiajkcxakc
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:17:17,772 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 15:17:17 CST 2017]; root of context hierarchy
+2017-03-16 15:17:17,835 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 15:17:18,067 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 15:17:18,228 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732: defining beans [springContextUtils,reflections,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 15:17:18,624 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 15:17:18 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 15:17:18,643 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44d52de2: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6f27a732
+2017-03-16 15:17:18,810 INFO  [org.reflections.Reflections] (main:null) Reflections took 96 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-03-16 15:17:18,929 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 15:17:19,262 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 15:17:19,493 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 15:17:19,494 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-16 15:17:25,090 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-22:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/fjkahskjhfiajkcxakc
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:17:57,224 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-23:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:17:57,701 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-22:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:18:03,353 WARN  [resteasy.core.ExceptionHandler] (qtp1689924104-22:null) failed to execute
+javax.ws.rs.NotFoundException: Could not find resource for full path: http://localhost:8099/backup/api/users/1
+	at org.jboss.resteasy.core.registry.ClassNode.match(ClassNode.java:73)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:444)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:234)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:171)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:220)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:648)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at com.ctsi.backup.jetty.HandlerList.handle(HandlerList.java:48)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2017-03-16 15:23:57,175 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Thu Mar 16 15:23:57 CST 2017]; root of context hierarchy
+2017-03-16 15:23:57,240 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-16 15:23:57,519 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-16 15:23:57,716 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8: defining beans [springContextUtils,reflections,userModel,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-16 15:23:58,225 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Thu Mar 16 15:23:58 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-16 15:23:58,243 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15713d56: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8
+2017-03-16 15:23:58,430 INFO  [org.reflections.Reflections] (main:null) Reflections took 123 ms to scan 3 urls, producing 17 keys and 22 values 
+2017-03-16 15:23:58,630 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-16 15:23:58,968 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 15:23:58,970 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Adding singleton resource com.ctsi.backup.rest.UserModel from Application class com.ctsi.backup.rest.RestEasyApplication
+2017-03-16 15:23:59,238 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-16 15:23:59,240 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!
+2017-03-28 19:22:48,357 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Tue Mar 28 19:22:48 CST 2017]; root of context hierarchy
+2017-03-28 19:22:48,464 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-28 19:22:48,822 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-28 19:22:49,167 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8: defining beans [springContextUtils,reflections,userModel,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-28 19:22:49,718 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Tue Mar 28 19:22:49 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-28 19:22:49,744 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15713d56: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8
+2017-03-28 19:22:49,994 INFO  [org.reflections.Reflections] (main:null) Reflections took 163 ms to scan 3 urls, producing 17 keys and 22 values 
+2017-03-28 19:22:50,224 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-28 19:22:50,739 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:22:50,741 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Adding singleton resource com.ctsi.backup.rest.UserModel from Application class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:22:51,088 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-28 19:27:30,456 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Tue Mar 28 19:27:30 CST 2017]; root of context hierarchy
+2017-03-28 19:27:30,539 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-28 19:27:30,898 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-28 19:27:31,185 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8: defining beans [springContextUtils,reflections,userModel,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-28 19:27:31,718 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Tue Mar 28 19:27:31 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-28 19:27:31,740 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15713d56: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8
+2017-03-28 19:27:31,962 INFO  [org.reflections.Reflections] (main:null) Reflections took 146 ms to scan 3 urls, producing 17 keys and 22 values 
+2017-03-28 19:27:32,217 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-28 19:27:32,651 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:27:32,678 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Adding singleton resource com.ctsi.backup.rest.UserModel from Application class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:27:33,104 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-28 19:30:22,844 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Tue Mar 28 19:30:22 CST 2017]; root of context hierarchy
+2017-03-28 19:30:22,917 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-28 19:30:23,203 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-28 19:30:23,421 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8: defining beans [springContextUtils,reflections,userModel,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-28 19:30:23,841 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Tue Mar 28 19:30:23 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-28 19:30:23,868 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15713d56: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8
+2017-03-28 19:30:24,080 INFO  [org.reflections.Reflections] (main:null) Reflections took 125 ms to scan 3 urls, producing 17 keys and 22 values 
+2017-03-28 19:30:24,258 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-28 19:30:24,624 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:30:24,626 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Adding singleton resource com.ctsi.backup.rest.UserModel from Application class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:30:24,898 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-28 19:34:54,539 INFO  [context.support.ClassPathXmlApplicationContext] (main:null) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f: startup date [Tue Mar 28 19:34:54 CST 2017]; root of context hierarchy
+2017-03-28 19:34:54,632 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from URL [file:/E:/workspace/backup_system/backup_launcher/target/classes/spring-config.xml]
+2017-03-28 19:34:55,015 INFO  [factory.xml.XmlBeanDefinitionReader] (main:null) Loading XML bean definitions from class path resource [jetty-config.xml]
+2017-03-28 19:34:55,316 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8: defining beans [springContextUtils,reflections,userModel,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,jetty_handler,Server,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+2017-03-28 19:34:55,848 INFO  [context.support.XmlWebApplicationContext] (main:null) Refreshing Root WebApplicationContext: startup date [Tue Mar 28 19:34:55 CST 2017]; parent: org.springframework.context.support.ClassPathXmlApplicationContext@69b0fd6f
+2017-03-28 19:34:55,888 INFO  [factory.support.DefaultListableBeanFactory] (main:null) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15713d56: defining beans []; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4e7912d8
+2017-03-28 19:34:56,170 INFO  [org.reflections.Reflections] (main:null) Reflections took 202 ms to scan 3 urls, producing 17 keys and 22 values 
+2017-03-28 19:34:56,457 INFO  [jetty.server.Server] (main:null) jetty-8.1.7.v20120910
+2017-03-28 19:34:56,920 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Deploying javax.ws.rs.core.Application: class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:34:56,924 INFO  [resteasy.spi.ResteasyDeployment] (main:null) Adding singleton resource com.ctsi.backup.rest.UserModel from Application class com.ctsi.backup.rest.RestEasyApplication
+2017-03-28 19:34:57,265 INFO  [jetty.server.AbstractConnector] (main:null) Started SelectChannelConnector@0.0.0.0:8099
+2017-03-28 19:35:20,812 INFO  [backup.launcher.AppLauncher] (main:null) ----------------->start hahhahhaahahahh end!!!

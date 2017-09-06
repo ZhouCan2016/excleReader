@@ -1,0 +1,11 @@
+com\frank\axis\service\impl\OprationServiceImpl.class
+com\frank\axis\launcher\AppLauncher.class
+com\frank\axis\jetty\HandlerList.class
+com\frank\axis\rest\MyJacksonJsonProvider.class
+com\frank\axis\service\OprationService.class
+com\frank\axis\jetty\HandlerList$MAPIHttpServletRequestWrapper$1.class
+com\frank\axis\utils\SpringContextUtils.class
+com\frank\axis\launcher\AppLauncher$1.class
+com\frank\axis\rest\MyResteasyJacksonJsonProvider.class
+com\frank\axis\app\App.class
+com\frank\axis\jetty\HandlerList$MAPIHttpServletRequestWrapper.class

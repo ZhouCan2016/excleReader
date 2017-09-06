@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.com.ctsi</groupId>
+		<artifactId>backup_system</artifactId>
+		<version>ver-1.0</version>
+	</parent>
+	<groupId>cn.com.ctsi.backup_system</groupId>
+	<artifactId>backup_launcher</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>cn.com.ctsi.backup_system</groupId>
+			<artifactId>backup_server</artifactId>
+			<version>${yun.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<excludes>
+						<exclude>**/*.xml</exclude>
+						<exclude>**/*.properties</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>cn.com.ctsi.csdp.workorder.App</mainClass>
+						</manifest>
+					</archive>
+					<descriptors>
+						<descriptor>src/main/assembly/assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

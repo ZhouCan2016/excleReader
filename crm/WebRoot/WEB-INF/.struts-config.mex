@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/chance.do" location="50,50" dimension="358,84" />
+  <StrutsActivity path="/user.do" location="650,50" dimension="358,84" />
+  <StrutsActivity path="/login.do" location="950,350" dimension="238,84" />
+  <StrutsActivity path="/dict.do" location="350,650" dimension="232,84" />
+  <StrutsActivity path="/product.do" location="50,550" dimension="250,84" />
+  <StrutsActivity path="/storage.do" location="950,650" dimension="250,84" />
+  <StrutsActivity path="/role.do" location="1250,450" dimension="232,84" />
+  <StrutsActivity path="/plan.do" location="50,950" dimension="232,84" />
+  <StrutsActivity path="/contrRpt.do" location="1550,550" dimension="238,84" />
+  <StrutsActivity path="/consRpt.do" location="1250,1050" dimension="232,84" />
+  <StrutsActivity path="/svrRpt.do" location="650,1150" dimension="226,84" />
+  <StrutsActivity path="/lostRpt.do" location="50,1250" dimension="250,84" />
+  <StrutsActivity path="/service.do" location="1850,650" dimension="250,84" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/list.jsp" location="50,250" dimension="220,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/edit.jsp" location="350,350" dimension="220,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/dispatch.jsp" location="650,350" dimension="244,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/add.jsp" location="350,250" dimension="214,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/user/userList.jsp" location="50,850" dimension="244,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/user/user_edit.jsp" location="1250,850" dimension="250,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/user/user_add.jsp" location="350,850" dimension="244,48" />
+  <StrutsActivity path="/html/index.html" location="950,550" dimension="136,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/Login.jsp" location="350,550" dimension="196,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/basd/dict.jsp" location="650,650" dimension="220,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/basd/dict_edit.jsp" location="350,450" dimension="250,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/basd/dict_add.jsp" location="50,450" dimension="244,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/basd/product.jsp" location="650,450" dimension="238,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/basd/storage.jsp" location="50,750" dimension="238,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/user/roleList.jsp" location="1250,650" dimension="244,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/user/assignRights.jsp" location="650,850" dimension="268,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/dev.jsp" location="350,950" dimension="214,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/dev_detail.jsp" location="950,950" dimension="256,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/dev_plan.jsp" location="350,1050" dimension="244,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/sale/dev_execute.jsp" location="650,1050" dimension="262,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/rept/contr.jsp" location="1550,850" dimension="226,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/rept/cons.jsp" location="350,1150" dimension="220,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/rept/ser.jsp" location="1550,1150" dimension="214,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/rept/lost.jsp" location="950,1250" dimension="220,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/add.jsp" location="1850,950" dimension="262,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/feedback.jsp" location="1850,1050" dimension="292,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/feedback_detail.jsp" location="1850,850" dimension="334,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/detail.jsp" location="350,1350" dimension="280,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/dispatch.jsp" location="1850,1150" dimension="292,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/deal_detail.jsp" location="950,1350" dimension="310,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/deal.jsp" location="1250,1250" dimension="268,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/service/arch.jsp" location="1850,1250" dimension="268,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/index.html" location="650,550" dimension="202,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/user/AssignRights.jsp" location="1250,750" dimension="268,48" />
+  <StrutsActivity path="/form/contr.jsp" location="1550,950" dimension="130,48" />
+  <StrutsActivity path="/index.jsp" location="1550,1050" dimension="100,48" />
+  <StrutsActivity path="/customer.do" location="1550,1350" dimension="256,84" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/cust/list.jsp" location="50,1450" dimension="250,48" />
+  <StrutsActivity path="/form/customer.jsp" location="350,1450" dimension="148,48" />
+  <StrutsActivity path="/WEB-INF/jsp/crm/cust/cust/edit.jsp" location="650,950" dimension="250,48" />
+  <StrutsTransition id="/form/customer.jsp,null,/customer.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="498,1473" />
+      <AbsolutePoint location="1678,1473" />
+      <AbsolutePoint location="1678,1434" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dict.do,list,/WEB-INF/jsp/crm/basd/dict.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="582,683" />
+      <AbsolutePoint location="650,683" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/chance.do,list,/WEB-INF/jsp/crm/sale/list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="229,134" />
+      <AbsolutePoint location="229,250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,toEdit,/WEB-INF/jsp/crm/cust/cust/edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1678,1434" />
+      <AbsolutePoint location="1678,1671" />
+      <AbsolutePoint location="769,1671" />
+      <AbsolutePoint location="769,1257" />
+      <AbsolutePoint location="621,1257" />
+      <AbsolutePoint location="621,974" />
+      <AbsolutePoint location="650,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,toEdit,/WEB-INF/jsp/crm/user/user_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1008,92" />
+      <AbsolutePoint location="1533,92" />
+      <AbsolutePoint location="1533,874" />
+      <AbsolutePoint location="1500,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dict.do,toEdit,/WEB-INF/jsp/crm/basd/dict_edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="561,650" />
+      <AbsolutePoint location="561,498" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,toDispatch,/WEB-INF/jsp/crm/cust/service/dispatch.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,683" />
+      <AbsolutePoint location="1803,683" />
+      <AbsolutePoint location="1803,1174" />
+      <AbsolutePoint location="1850,1174" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/plan.do,detail,/WEB-INF/jsp/crm/sale/dev_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="282,1013" />
+      <AbsolutePoint location="1071,1013" />
+      <AbsolutePoint location="1071,998" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WEB-INF/jsp/crm/sale/add.jsp,null,/chance.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="393,250" />
+      <AbsolutePoint location="393,134" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,detail,/WEB-INF/jsp/crm/cust/service/detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,650" />
+      <AbsolutePoint location="1975,179" />
+      <AbsolutePoint location="-160,179" />
+      <AbsolutePoint location="-160,1374" />
+      <AbsolutePoint location="350,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,l,/WEB-INF/jsp/crm/Login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1101,434" />
+      <AbsolutePoint location="1101,613" />
+      <AbsolutePoint location="448,613" />
+      <AbsolutePoint location="448,598" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WEB-INF/jsp/crm/user/roleList.jsp,null,/role.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1396,650" />
+      <AbsolutePoint location="1396,534" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/chance.do,toEdit,/WEB-INF/jsp/crm/sale/edit.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="315,134" />
+      <AbsolutePoint location="315,374" />
+      <AbsolutePoint location="350,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/plan.do,execPlan,/WEB-INF/jsp/crm/sale/dev_execute.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="159,1034" />
+      <AbsolutePoint location="159,1113" />
+      <AbsolutePoint location="781,1113" />
+      <AbsolutePoint location="781,1098" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dict.do,toAdd,/WEB-INF/jsp/crm/basd/dict_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,692" />
+      <AbsolutePoint location="-25,692" />
+      <AbsolutePoint location="-25,474" />
+      <AbsolutePoint location="50,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,feedbackdetail,/WEB-INF/jsp/crm/cust/service/feedback_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1945,734" />
+      <AbsolutePoint location="1945,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/lostRpt.do,list,/WEB-INF/jsp/crm/rept/lost.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="300,1283" />
+      <AbsolutePoint location="950,1283" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/role.do,allRights,/WEB-INF/jsp/crm/user/assignRights.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,513" />
+      <AbsolutePoint location="1221,513" />
+      <AbsolutePoint location="1221,874" />
+      <AbsolutePoint location="918,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,toArchList,/WEB-INF/jsp/crm/cust/service/arch.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2100,662" />
+      <AbsolutePoint location="2289,662" />
+      <AbsolutePoint location="2289,1274" />
+      <AbsolutePoint location="2118,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,index,/html/index.html,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1069,434" />
+      <AbsolutePoint location="1069,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/customer.do,list,/WEB-INF/jsp/crm/cust/cust/list.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,1413" />
+      <AbsolutePoint location="175,1413" />
+      <AbsolutePoint location="175,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/product.do,productList,/WEB-INF/jsp/crm/basd/product.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,592" />
+      <AbsolutePoint location="5,592" />
+      <AbsolutePoint location="5,-25" />
+      <AbsolutePoint location="1221,-25" />
+      <AbsolutePoint location="1221,474" />
+      <AbsolutePoint location="888,474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/chance.do,toAdd,/WEB-INF/jsp/crm/sale/add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="365,134" />
+      <AbsolutePoint location="365,250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/plan.do,list,/WEB-INF/jsp/crm/sale/dev.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="282,983" />
+      <AbsolutePoint location="350,983" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,toAdd,/WEB-INF/jsp/crm/user/user_add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,92" />
+      <AbsolutePoint location="615,92" />
+      <AbsolutePoint location="615,874" />
+      <AbsolutePoint location="594,874" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/storage.do,list,/WEB-INF/jsp/crm/basd/storage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1075,734" />
+      <AbsolutePoint location="1075,913" />
+      <AbsolutePoint location="-85,913" />
+      <AbsolutePoint location="-85,774" />
+      <AbsolutePoint location="50,774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/role.do,list,/WEB-INF/jsp/crm/user/roleList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1366,534" />
+      <AbsolutePoint location="1366,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/contrRpt.do,list,/WEB-INF/jsp/crm/rept/contr.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1669,634" />
+      <AbsolutePoint location="1669,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/svrRpt.do,list,/WEB-INF/jsp/crm/rept/ser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="876,1213" />
+      <AbsolutePoint location="1657,1213" />
+      <AbsolutePoint location="1657,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/chance.do,toDispatch,/WEB-INF/jsp/crm/sale/dispatch.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="408,92" />
+      <AbsolutePoint location="585,92" />
+      <AbsolutePoint location="585,374" />
+      <AbsolutePoint location="650,374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,todealList,/WEB-INF/jsp/crm/cust/service/deal.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1975,734" />
+      <AbsolutePoint location="1975,813" />
+      <AbsolutePoint location="2319,813" />
+      <AbsolutePoint location="2319,1503" />
+      <AbsolutePoint location="1384,1503" />
+      <AbsolutePoint location="1384,1298" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WEB-INF/jsp/crm/Login.jsp,null,/login.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,574" />
+      <AbsolutePoint location="315,574" />
+      <AbsolutePoint location="315,413" />
+      <AbsolutePoint location="950,413" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/user.do,list,/WEB-INF/jsp/crm/user/userList.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="909,134" />
+      <AbsolutePoint location="909,813" />
+      <AbsolutePoint location="172,813" />
+      <AbsolutePoint location="172,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,toFeedbackList,/WEB-INF/jsp/crm/cust/service/feedback.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2100,722" />
+      <AbsolutePoint location="2199,722" />
+      <AbsolutePoint location="2199,1074" />
+      <AbsolutePoint location="2142,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/plan.do,addPlan,/WEB-INF/jsp/crm/sale/dev_plan.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="189,1034" />
+      <AbsolutePoint location="189,1074" />
+      <AbsolutePoint location="350,1074" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,login,/WEB-INF/jsp/crm/Login.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1039,434" />
+      <AbsolutePoint location="1039,513" />
+      <AbsolutePoint location="448,513" />
+      <AbsolutePoint location="448,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,dealdetail,/WEB-INF/jsp/crm/cust/service/deal_detail.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,713" />
+      <AbsolutePoint location="1833,713" />
+      <AbsolutePoint location="1833,1593" />
+      <AbsolutePoint location="1105,1593" />
+      <AbsolutePoint location="1105,1398" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/service.do,toadd,/WEB-INF/jsp/crm/cust/service/add.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2100,692" />
+      <AbsolutePoint location="2259,692" />
+      <AbsolutePoint location="2259,974" />
+      <AbsolutePoint location="2112,974" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/consRpt.do,list,/WEB-INF/jsp/crm/rept/cons.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1083" />
+      <AbsolutePoint location="1185,1083" />
+      <AbsolutePoint location="1185,1313" />
+      <AbsolutePoint location="507,1313" />
+      <AbsolutePoint location="507,1198" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

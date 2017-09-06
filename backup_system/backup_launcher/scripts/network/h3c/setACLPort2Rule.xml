@@ -1,0 +1,51 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header>
+    <auth:Authentication env:mustUnderstand="1" xmlns:auth="http://www.h3c.com/netconf/base:1.0">
+      <auth:AuthInfo>%authinfo%</auth:AuthInfo>
+    </auth:Authentication>
+  </env:Header>
+  <env:Body>
+	<rpc message-id ="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+		  <edit-config>
+		    <target>
+		      <running/>
+		    </target>
+		    <config>
+		     <top xmlns="http://www.h3c.com/netconf/config:1.0">
+   						  
+			  <ACL>
+				  <IPv4AdvanceRules>
+				    <Rule>
+				      <GroupID>%aclNumber%</GroupID>
+				      <RuleID>%ruleId%</RuleID>
+				      <Action>%action%</Action>
+				      <ProtocolType>%proType%</ProtocolType>
+				      <SrcAny>%srcAny%</SrcAny>
+				      <SrcIPv4>
+				        <SrcIPv4Addr>%sourceIp%</SrcIPv4Addr>
+				        <SrcIPv4Wildcard>%sourceMask%</SrcIPv4Wildcard>
+				      </SrcIPv4>
+				      <DstAny>%dstAny%</DstAny>
+						<DstIPv4>
+							<DstIPv4Addr>%destIp%</DstIPv4Addr>
+							<DstIPv4Wildcard>%destMask%</DstIPv4Wildcard>
+						</DstIPv4>
+						  <SrcPort>
+						        <SrcPortOp>5</SrcPortOp>
+						        <SrcPortValue1>%sourcePort%</SrcPortValue1>
+						        <SrcPortValue2>%sourcePort%</SrcPortValue2>
+						      </SrcPort>
+						
+				     
+				    </Rule>
+				  </IPv4AdvanceRules>
+			  </ACL> 
+   				
+
+			
+		       	</top>
+		    </config>
+		  </edit-config>
+		</rpc>
+  </env:Body>
+</env:Envelope>
